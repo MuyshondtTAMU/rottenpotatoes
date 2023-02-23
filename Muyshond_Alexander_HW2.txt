@@ -1,0 +1,4 @@
+Name: Alexander Muyshondt
+UIN: 533007284
+Homework 2 Github Link: https://github.com/MuyshondtTAMU/rottenpotatoes
+Heroku App Link: https://rottenpotatoestamu.herokuapp.com/
