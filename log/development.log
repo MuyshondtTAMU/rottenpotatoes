@@ -109,3 +109,42 @@ Processing by MoviesController#index as HTML
 Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 4067)
 
 
+Started GET "/" for 173.239.224.34 at 2023-02-23 04:56:48 +0000
+Cannot render console from 173.239.224.34! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 173.239.224.34 at 2023-02-23 04:56:48 +0000
+Cannot render console from 173.239.224.34! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:6
+  Rendered movies/_movie.html.erb (Duration: 1.1ms | Allocations: 402)
+  Rendered movies/_movie.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered movies/_movie.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered movies/_movie.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered movies/_movie.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered movies/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 8043)
+  Rendered layout layouts/application.html.erb (Duration: 149.7ms | Allocations: 42093)
+Completed 200 OK in 158ms (Views: 151.2ms | ActiveRecord: 0.8ms | Allocations: 45595)
+
+
+Started GET "/" for 173.239.224.34 at 2023-02-23 04:56:50 +0000
+Cannot render console from 173.239.224.34! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/movies" for 173.239.224.34 at 2023-02-23 04:56:50 +0000
+Cannot render console from 173.239.224.34! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MoviesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  ↳ app/views/movies/index.html.erb:6
+  Rendered movies/_movie.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered movies/_movie.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered movies/_movie.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered movies/_movie.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered movies/_movie.html.erb (Duration: 0.2ms | Allocations: 37)
+  Rendered movies/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1675)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3876)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 4192)
+
+
